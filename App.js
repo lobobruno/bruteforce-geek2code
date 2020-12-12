@@ -1,4 +1,5 @@
 const fs = require('fs');
+const EOL = require('os').EOL;
 
 const splitToChunks = (array, parts) => {
   let result = [];
@@ -8,14 +9,10 @@ const splitToChunks = (array, parts) => {
   }
   return result;
 };
-const wordGen = (prefix, letters) => letters.map((e) => prefix + e);
-
-const delay = (ms) => new Promise((res) => setTimeout(res, ms));
+const wordGen = (prefix, letters) => letters.map((e) => prefix + '' + e);
 
 const passGen = async (possibleFirstLetters, passLength, allChars, tid) => {
-  //console.log(`t(${tid}):Init`);
-  //if (tid == 0) await delay(1000);
-  let passes = [];
+  let passwords = [];
   for (let i in possibleFirstLetters) {
     let firstLetter = possibleFirstLetters[i];
     let words = [];
@@ -23,22 +20,23 @@ const passGen = async (possibleFirstLetters, passLength, allChars, tid) => {
       if (!words.length) words = wordGen(firstLetter, allChars);
       else words = words.map((e) => wordGen(e, allChars)).flat();
     }
-    passes.push(words);
+    passwords.push(words);
   }
-  //console.log(`t(${tid}):End`);
-  return passes.flat();
+  return passwords.flat();
 };
 
 const savePasses = (passes) => {
   const filepath = 'passes.csv';
+  if (fs.existsSync(filepath)) {
+    fs.unlinkSync(filepath);
+  }
   const file = fs.createWriteStream(filepath);
-  fs.truncate(filepath, 0, function () {});
 
   file.on('error', function (err) {
     console.log(err);
   });
   passes.forEach(function (v) {
-    file.write(v + ',');
+    file.write(v + EOL);
   });
   file.end();
 };
@@ -69,7 +67,7 @@ const passGenThreads = async (
 
 //prettier-ignore
 const upper = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-const allPossibleCharts = upper
+const allPossibleChars = upper
   .concat(upper.map((e) => e.toLowerCase()))
   .concat([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
@@ -77,4 +75,4 @@ const stringLength = process.argv.slice(2)[0] || 4;
 const threads = process.argv.slice(2)[1] || 10;
 const save = process.argv.slice(2).indexOf('--save') != -1;
 
-passGenThreads(threads, stringLength, allPossibleCharts, save);
+passGenThreads(threads, stringLength, allPossibleChars, save);
