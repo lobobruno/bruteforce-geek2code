@@ -66,6 +66,12 @@ No modules, needed! Vanila JS.
    node App.js 4 10
 ```
 
+1. --save to save the output to csv file
+
+```sh
+   node App.js 4 10 --save
+```
+
 <!-- ROADMAP -->
 
 ## Roadmap
