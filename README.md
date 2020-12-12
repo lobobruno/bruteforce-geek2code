@@ -108,15 +108,15 @@ Project Link: [https://github.com/lobobruno/bruteforce-geek2code](https://github
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/lobobruno/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/lobobruno/repo/graphs/contributors
+[contributors-url]: https://github.com/lobobruno/bruteforce-geek2code/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/lobobruno/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/lobobruno/repo/network/members
+[forks-url]: https://github.com/lobobruno/bruteforce-geek2code/network/members
 [stars-shield]: https://img.shields.io/github/stars/lobobruno/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/lobobruno/repo/stargazers
+[stars-url]: https://github.com/lobobruno/bruteforce-geek2code/stargazers
 [issues-shield]: https://img.shields.io/github/issues/lobobruno/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/lobobruno/repo/issues
+[issues-url]: https://github.com/lobobruno/bruteforce-geek2code/issues
 [license-shield]: https://img.shields.io/github/license/lobobruno/repo.svg?style=for-the-badge
-[license-url]: https://github.com/lobobruno/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/lobobruno/bruteforce-geek2code/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lobobruno/
 [product-screenshot]: images/screenshot.png
