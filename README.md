@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lobobruno/bruteforce-geek2code">
-    <img src="http://brunoloboreturntrue.files.wordpress.com/2015/10/brunolobo_xyz_icon_500px2.jpg" alt="Logo" width="80" height="80">
+    <img src="images/bruno.jpg" alt="Logo" width="100" height="160">
   </a>
 
   <h3 align="center">Brute Force challenge</h3>
@@ -22,7 +22,7 @@
     <br />
     <a href="https://github.com/lobobruno/bruteforce-geek2code">View Demo</a>
     ·
-    <a href="https://github.com/lobobruno/bruteforce-geek2code/issues">Report Bug</a>
+    <a href="https://github.com/lobchanobruno/bruteforce-geek2code/issues">Report Bug</a>
     ·
     <a href="https://github.com/lobobruno/bruteforce-geek2code/issues">Request Feature</a>
   </p>
@@ -32,16 +32,12 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`lobobruno`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+[![Product Name Screen Shot][product-screenshot]](https://github.com/lobobruno/bruteforce-geek2code/)
 
 ### Built With
 
-- []()
-- []()
+- [Javascript]()
+- [Node]()
 - []()
 
 <!-- GETTING STARTED -->
@@ -52,12 +48,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+No modules, needed! Vanila JS.
 
 ### Installation
 
@@ -65,18 +56,16 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/lobobruno/bruteforce-geek2code.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. node App.js string_width number_of_threads
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```sh
+   node App.js 4 10
+```
 
 <!-- ROADMAP -->
 
@@ -106,17 +95,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Bruno Lobo - [@brunowlf](https://twitter.com/brunowlf) - email
 
 Project Link: [https://github.com/lobobruno/bruteforce-geek2code](https://github.com/lobobruno/bruteforce-geek2code)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- []()
-- []()
-- []()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
