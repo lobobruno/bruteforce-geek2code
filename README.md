@@ -17,12 +17,12 @@
   <p align="center">
     Brute force challenge insta @geek2code 
     <br />
-    <a href="https://github.com/lobobruno/bruteforce-geek2code"><strong>Explore the docs »</strong></a>
+    <a href="https://www.instagram.com/p/CIs2MReKBYR/"><strong>Chanlage page »</strong></a>
     <br />
     <br />
     <a href="https://github.com/lobobruno/bruteforce-geek2code">View Demo</a>
     ·
-    <a href="https://github.com/lobchanobruno/bruteforce-geek2code/issues">Report Bug</a>
+    <a href="https://github.com/lobobruno/bruteforce-geek2code/issues">Report Bug</a>
     ·
     <a href="https://github.com/lobobruno/bruteforce-geek2code/issues">Request Feature</a>
   </p>
