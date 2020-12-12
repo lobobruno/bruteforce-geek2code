@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lobobruno/bruteforce-geek2code">
-    <img src="images/bruno.jpg" alt="Logo" width="100" height="160">
+    <img src="images/bruno.jpg" alt="Logo" width="160" height="100">
   </a>
 
   <h3 align="center">Brute Force challenge</h3>
@@ -38,7 +38,6 @@
 
 - [Javascript]()
 - [Node]()
-- []()
 
 <!-- GETTING STARTED -->
 
