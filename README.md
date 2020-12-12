@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lobobruno/bruteforce-geek2code">
-    <img src="//brunoloboreturntrue.files.wordpress.com/2015/10/brunolobo_xyz_icon_500px2.jpg" alt="Logo" width="80" height="80">
+    <img src="http://brunoloboreturntrue.files.wordpress.com/2015/10/brunolobo_xyz_icon_500px2.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Brute Force challenge</h3>
